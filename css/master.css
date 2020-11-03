@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&family=Roboto:wght@300&display=swap');
+
+header{
+  background-color: black;
+}
+.espace {
+  margin-top: 10em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+h1 {
+  font-family: 'Ranchers', cursive;
+  font-size: 5em;
+  text-align: center;
+  color: rgb(252, 186, 3);
+}
+
+h4 {
+  font-family:font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
+.image-droite {
+  text-align: right;
+}
+
+.image5 {
+  justify-content: center;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: monospace;
+  color: rgb(252, 186, 3);
+}
+
+p {
+  color: black
+
+}
+
+.carousel-item {
+  height: 45em;
+}
+
+body {
+  background-color: white
+}
+
+.image-petite {
+  height: 15em;
+  width: 15em;
+}
+
+.video-illu  {
+  border: 1px solid yellow;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.footer-nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.premier-titre {
+animation: monter 3s 1;
+position: relative;
+margin-bottom: 20px;
+
+}
+@keyframes monter {
+  0%
+  { color: black;
+  margin-bottom: -40px;
+  }
+}
+
+.deuxieme-titre {
+  animation: descendre 3s 1;
+}
+
+@keyframes descendre {
+  0%
+  { color: black;
+}
+}
